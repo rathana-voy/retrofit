@@ -11,7 +11,7 @@ public class ServiceGenerator {
     private static final String BASE_URL_2 = "http://110.74.194.124:15011";
 
     private static Retrofit.Builder builder = new Retrofit.Builder()
-            .baseUrl(BASE_URL)
+            .baseUrl(BASE_URL_2)
             .addConverterFactory(GsonConverterFactory.create());
 
     private static OkHttpClient okHttpClient() {
